@@ -30,4 +30,7 @@ describe('重复单词',()=>{
     it('  bar bar d bar',()=>{  
         expect(repeat(' bar bar d bar')).to.be.ok;
     });
+     it('  barr bar bar',()=>{  
+        expect(repeat(' bar bar d bar')).to.be.ok;
+    });
 });
