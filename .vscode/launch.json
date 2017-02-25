@@ -5,7 +5,7 @@
             "name": "Launch",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/正则/index.js",
+            "program": "${workspaceRoot}/正则/sort.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
