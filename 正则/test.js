@@ -31,6 +31,6 @@ describe('重复单词',()=>{
         expect(repeat(' bar bar d bar')).to.be.ok;
     });
      it('  barr bar bar',()=>{  
-        expect(repeat(' bar bar d bar')).to.be.ok;
+        expect(repeat('bsrr bar bar')).to.be.ok;
     });
 });
