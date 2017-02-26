@@ -12,6 +12,14 @@ module.exports = {
     repeat:(txt)=>{
         let repeat_reg = /(\b[a-zA-Z]+\b)+/g;
         return repeat_reg.test(txt);
+    },
+    email:(txt)=>{
+        //xxx.xx@gou.com
+        //xxxx@gou.com
+        //xxx_ddd_dd@hot.cp
+
+        let reg = /[a-z0-9A-Z]+[a-z0-9A-Z_-]*@[\w]+.[\w]/;
+        return reg.test(txt);
     }
 
 }

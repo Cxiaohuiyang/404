@@ -1,4 +1,4 @@
-let {phone_reg:phone , repeat:repeat} = require('./index'),
+let {phone_reg:phone , repeat:repeat , email:email} = require('./index'),
   {expect:expect} = require('chai');
  
 describe('手机号码简单校验',()=>{
@@ -32,5 +32,19 @@ describe('重复单词',()=>{
     });
      it('  barr bar bar',()=>{  
         expect(repeat('bsrr bar bar')).to.be.ok;
+    });
+});
+describe("邮箱",()=>{
+    it('bsrr bar bar',()=>{  
+        expect(email('bsrr bar bar')).to.be.equal(false);
+    });
+      it('xxx_ddd_dd@ar.bar',()=>{  
+        expect(email('xxx_ddd_dd@ar.bar')).to.be.ok;
+    });
+     it('bsrr@bar.bar',()=>{  
+        expect(email('bsrr@bar.bar')).to.be.ok;
+    });
+    it('bsrr_www@bar.bar',()=>{  
+        expect(email('bsrr_www@bar.bar')).to.be.ok;
     });
 });
