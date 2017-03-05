@@ -1,3 +1,4 @@
+let private_fun = 'private_fun'
 class Person {
     constructor(){
         this.info = {
@@ -7,7 +8,11 @@ class Person {
         };
     } 
     print(){
+        console.log(this.private_fun());
             console.log(this.info);
+    } 
+    [private_fun](){
+        console.log('xxxxxx');
     } 
 }
 
@@ -29,8 +34,7 @@ class Female extends Person{
 var male = new Male();
 // male.info.name ='男的';
 // male.info.gender ='男性';
-// male.info.age =22;
- 
+// male.info.age =22; 
 
 
 var female= new Female();

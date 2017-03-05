@@ -9,29 +9,25 @@ let Persion = function(){
     }
 }
 let Female = function(){ 
-}
-let Male = function(){
-     Persion.apply(this); 
-    this.info = {
-        a:123
-    };
-};
+     // Persion.call(this);  
+        console.log('Female');
+} 
+ Object.setPrototypeOf(Female.prototype,Persion.prototype);
+ Object.setPrototypeOf(Female,Persion);
+ let f = new Female();
+// f.print()
 
 
-
-Female.prototype = new Persion();
+ var promise = new Promise(function(resolve, reject) {
  
-var male = new Male();
-// male.info.name ='男的';
-// male.info.gender.na ="妖精";
-// male.info.age =22;
-
-var female= new Female();
-female.info.name ="女的";
-female.info.gender.na ="女性";
-female.info.age =21;
-
-var persion = new Persion();
-persion.print(); 
-male.print();
-female.print();
+  if (false){
+    resolve(value);
+  } else {
+    reject();
+  }
+});
+promise.then(([...a])=>{
+   // console.log(a);
+},function ([...a]){
+    console.log(a)
+});
