@@ -5,7 +5,7 @@
             "name": "Launch",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/简单算法/1.js",
+            "program": "${workspaceRoot}/正则/test.js",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",

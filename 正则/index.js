@@ -23,3 +23,6 @@ module.exports = {
     }
 
 }
+exports.xxx ={
+    a:1
+};
