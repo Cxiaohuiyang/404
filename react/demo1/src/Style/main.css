@@ -1,0 +1,16 @@
+.layout {
+    height: 100%;
+}
+
+.header,
+.footer {
+    height: 1.3333333333333333rem;
+    background-color: #7dbcea;
+    overflow: hidden;
+}
+
+.content {
+    background-color: rgba(16, 142, 233, 1);
+    height: calc(100% - 1.3333333333333333rem);
+    overflow: auto;
+}
