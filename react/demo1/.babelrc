@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        [
+            "import",
+            {
+                "libraryName": "material-ui",
+                "libraryDirectory": "components", // default: lib
+                "camel2DashComponentName": false // default: true
+            }
+        ]
+    ]
+}

@@ -9,9 +9,7 @@ var APP_PATH = path.resolve(ROOT_PATH, 'src'); //__dirname 中的src目录，以
 
 var APP_FILE = path.resolve(APP_PATH, 'app'); //根目录文件app.jsx地址
 var BUILD_PATH = path.resolve(ROOT_PATH, 'dist'); //发布文件所存放的目录
-console.log('-------------------');
-console.log(ROOT_PATH, APP_PATH, BUILD_PATH, APP_FILE);
-console.log('-------------------');
+
 module.exports = {
     devtool: 'cheap-module-eval-source-map',
     entry: {
