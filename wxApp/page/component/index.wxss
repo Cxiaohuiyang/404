@@ -1,0 +1,65 @@
+.index {
+  background-color: #f7f7f7;
+}
+
+.select-address {
+  margin: 20rpx;
+  height: 400rpx;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10rpx;
+   box-shadow:0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.select-address .line{
+  display: block;
+  width: 60%;
+  top: 200rpx;
+  height: 0px;
+  position: absolute;
+  left: 40rpx; 
+  border-top:1px dotted gray;
+}
+
+.circle {
+  height: 25rpx;
+  width: 25rpx;
+  background-color:transparent;
+  display: block;
+  overflow: hidden;
+}
+
+.circle::after{
+  content: '';
+  border-radius: 20rpx;  
+  box-shadow:0 2px 3px rgba(0,0,0,0.2) inset; 
+  display: block;
+  height: 20rpx;
+  width: 20rpx; 
+  background-color: #f7f7f7;
+  position: relative;
+  right: -11rpx;
+}
+.left {
+  position: absolute;
+  top: 190rpx;
+  left: -1rpx;
+}
+.right {
+  position: absolute;
+  top: 190rpx;
+  right: -1rpx;
+}
+
+.road-line-item {
+  background-color: #fff;
+}
+
+.line-txt {
+  padding-left: 30rpx;
+  border-bottom: 1rpx solid gray;
+  line-height: 40rpx;
+}
+
+.road-name {
+  height: 100rpx;
+}

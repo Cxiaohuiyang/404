@@ -1,0 +1,26 @@
+<view class="index">
+  <view class="select-address">
+      <view class="classname">
+      dsad
+      </view> 
+      <view class="classname">
+      dsad
+      </view> 
+      <view class="line"></view>
+      <label class="circle left"></label>
+      <label class="circle right"></label>
+  </view>
+  <view class="road-line">
+      <view class="road-line-item">
+        <view class="line-txt">学院路口-武林哦哦哦哦哦哦</view>
+        <view class="road-name">
+            <view class="">
+
+            </view>
+            <view class="line-price">
+            12
+            </view>
+        </view>
+      </view> 
+  </view>
+</view>
